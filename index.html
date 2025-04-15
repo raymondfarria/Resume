@@ -49,20 +49,14 @@
             font-size: 12px; /* Match PDF date size */
             font-weight: normal;
             text-align: right; /* Align to right as in PDF */
-            float: right; /* Ensure dates are aligned to the right */
-            margin-left: 10px; /* Add space between the header and the date */
+            margin-top: 0; /* Adjust spacing above */
+            margin-bottom: 12px; /* Adjust spacing below */
         }
         /* Paragraph Styles */
         p {
             font-size: 12pt; /* Match PDF font size */
             line-height: 1.5; /* Match PDF line spacing */
             margin: 0 0 12px 0; /* Adjust spacing below paragraphs */
-        }
-        /* Clearfix for floated elements */
-        .clearfix::after {
-            content: "";
-            display: table;
-            clear: both;
         }
     </style>
 </head>
@@ -78,10 +72,8 @@
         <h3 class="header-small">Hardware</h3>
         <p>Motherboards, desktops, laptops, printers, scanners, mobile devices, drawing tablets, keyboards, graphics cards, SSD, HDD.</p>
         <h2 class="header-medium">PROFESSIONAL EXPERIENCE</h2>
-        <div class="clearfix">
-            <h3 class="header-small">Cloudsnap/Paylocity | Automation Engineer | Remote</h3>
-            <span class="date">Aug 2021 - Mar 2024</span>
-        </div>
+        <h3 class="header-small">Cloudsnap/Paylocity | Automation Engineer | Remote</h3>
+        <p class="date">Aug 2021 - Mar 2024</p>
         <ul>
             <li>Automated customer-facing workflows using JavaScript and Ruby to integrate business applications via APIs, ensuring reliability and efficiency.</li>
             <li>Conducted testing, debugging, and troubleshooting with Jest, resolving system issues promptly.</li>
@@ -89,10 +81,8 @@
             <li>Collaborated with cross-functional teams in an Agile environment to ensure seamless workflow integration and adherence to QA standards.</li>
             <li>Supported production issue resolution by troubleshooting and debugging to maintain system performance and reliability.</li>
         </ul>
-        <div class="clearfix">
-            <h3 class="header-small">Arora Engineers | Implementation Lead | Chadds Ford, PA</h3>
-            <span class="date">Nov 2018 - Aug 2021</span>
-        </div>
+        <h3 class="header-small">Arora Engineers | Implementation Lead | Chadds Ford, PA</h3>
+        <p class="date">Nov 2018 - Aug 2021</p>
         <ul>
             <li>Coordinated and led 200+ internal projects and meetings to ensure seamless rollouts for enterprise clients based on their scheduling needs.</li>
             <li>Configured and troubleshot 1000s of smart sensors across dozens of airports following company SLAs.</li>
@@ -101,33 +91,25 @@
             <li>Evaluated technologies for use on proprietary applications to address evolving industry needs and stay ahead of the competition.</li>
         </ul>
         <h2 class="header-medium">EDUCATION</h2>
-        <div class="clearfix">
-            <h3 class="header-small">Per Scholas | Remote Training | Baltimore, MD</h3>
-            <span class="date">Feb 2025 - May 2025</span>
-        </div>
+        <h3 class="header-small">Per Scholas | Remote Training | Baltimore, MD</h3>
+        <p class="date">Feb 2025 - May 2025</p>
         <ul>
             <li>CompTIA A+ Certificate (Pending).</li>
             <li>Google IT Support Certificate (Pending).</li>
         </ul>
-        <div class="clearfix">
-            <h3 class="header-small">Zip Code Wilmington | Software Engineer Bootcamp | Wilmington, DE</h3>
-            <span class="date">May 2017 - Aug 2017</span>
-        </div>
+        <h3 class="header-small">Zip Code Wilmington | Software Engineer Bootcamp | Wilmington, DE</h3>
+        <p class="date">May 2017 - Aug 2017</p>
         <ul>
             <li>Completion Certificate.</li>
         </ul>
-        <div class="clearfix">
-            <h3 class="header-small">Delaware State University | Dover, DE</h3>
-            <span class="date">Aug 2009 - May 2012</span>
-        </div>
+        <h3 class="header-small">Delaware State University | Dover, DE</h3>
+        <p class="date">Aug 2009 - May 2012</p>
         <ul>
             <li>Bachelor of Arts; major in Music, minor in Music Technology.</li>
         </ul>
         <h2 class="header-medium">PROJECTS/EXTERNSHIPS</h2>
-        <div class="clearfix">
-            <h3 class="header-small">Game Development Project | Robot Boy, Steam | Unreal Engine 5 Programmer</h3>
-            <span class="date">Oct 2024 - Present</span>
-        </div>
+        <h3 class="header-small">Game Development Project | Robot Boy, Steam | Unreal Engine 5 Programmer</h3>
+        <p class="date">Oct 2024 - Present</p>
         <ul>
             <li>Collaborated with a game programmer to design, create, and publish a Steam-hosted video game.</li>
             <li>Streamlined the game development process by organizing and planning its creation.</li>
